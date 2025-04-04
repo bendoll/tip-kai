@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tip Kai Time</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <script defer type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <div id="state-no-tip"
+        class="align-items-center justify-content-center text-center position-absolute top-0 left-0 w-100 h-100">
+        <h1>what the hell, man?? >:(</h1>
+    </div>
+    <div id="state-tipped"
+        class="align-items-center justify-content-center text-center position-absolute top-0 left-0 w-100 h-100">
+        <h1>thank u :D</h1>
+    </div>
+    <div id="state-prompt"
+        class="flex-column align-items-center justify-content-center position-absolute top-0 left-0 w-100 h-100">
+        <h1 class="title d-flex align-items-center justify-content-center">
+            Leave a tip?
+        </h1>
+        <div class="d-flex flex-row align-items-center justify-content-between p-5">
+            <button type="button" id="btn-20" class="btn btn-primary btn-lg">
+                <span>20%</span>
+            </button>
+
+            <button type="button" id="btn-22" class="btn btn-primary btn-lg">
+                <span>22%</span>
+            </button>
+
+            <button type="button" id="btn-25" class="btn btn-primary btn-lg">
+                <span>25%</span>
+            </button>
+        </div>
+        <div class="d-flex flex-row align-items-center justify-content-center">
+            <div class="flex-column">
+                <button type="button" id="btn-custom-2" class="btn btn-primary btn-sm">
+                    <span>Custom</span>
+                </button>
+            </div>
+            <div class="flex-column">
+                <button type="button" id="btn-none" class="btn btn-primary btn-sm">
+                    <span>No Tip</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="reset-btn-container" class="align-items-center justify-content-center bottom-0 w-100 position-absolute">
+        <button type="button" id="btn-reset" class="btn btn-secondary btn-sm">Reset</button>
+    </div>
+</body>
+
+</html>
