@@ -10,7 +10,12 @@
     display: flex;
 }
 
-#reset-btn-container {
+#btn-reset {
+    display: none;
+    opacity: 0;
+}
+
+#state-custom {
     display: none;
 }
 
